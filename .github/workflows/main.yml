@@ -35,6 +35,7 @@ jobs:
           sudo apt-get install libvlccore-dev
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
+          haxelib set lime 7.9.0
           haxelib install lime
           haxelib install openfl
           haxelib --never install flixel
@@ -45,6 +46,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install tjson
           haxelib install hxjsonast
+          haxelib git extension-webview https://github.com/Daninnocent/extension-webview
           haxelib git hxCodec https://github.com/polybiusproxy/hxcodec
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
           haxelib install hscript
@@ -76,8 +78,8 @@ jobs:
         run: |
           haxelib setup C:/haxelib
           haxelib install hxcpp > nul
-          haxelib install lime
           haxelib set lime 7.9.0
+          haxelib install lime
           haxelib install openfl
           haxelib --never install flixel
           haxelib run lime setup flixel
@@ -87,6 +89,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install tjson
           haxelib install hxjsonast
+          haxelib git extension-webview https://github.com/Daninnocent/extension-webview
           haxelib git hxCodec https://github.com/polybiusproxy/hxcodec
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
           haxelib git extension-webview https://github.com/Daninnocent/extension-webview
@@ -120,6 +123,7 @@ jobs:
         run: |
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
+          haxelib set lime 7.9.0
           haxelib install lime
           haxelib install openfl
           haxelib --never install flixel
@@ -130,6 +134,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install tjson
           haxelib install hxjsonast
+          haxelib git extension-webview https://github.com/Daninnocent/extension-webview
           haxelib git hxCodec https://github.com/polybiusproxy/hxcodec
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
           haxelib install hscript
