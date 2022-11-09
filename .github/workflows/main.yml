@@ -77,6 +77,7 @@ jobs:
           haxelib setup C:/haxelib
           haxelib install hxcpp > nul
           haxelib install lime
+          haxelib set lime 7.9.0
           haxelib install openfl
           haxelib --never install flixel
           haxelib run lime setup flixel
@@ -88,6 +89,7 @@ jobs:
           haxelib install hxjsonast
           haxelib git hxCodec https://github.com/polybiusproxy/hxcodec
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
+          haxelib git extension-webview https://github.com/Daninnocent/extension-webview
           haxelib install hscript
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
